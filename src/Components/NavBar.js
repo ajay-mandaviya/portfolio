@@ -1,11 +1,9 @@
 import React from "react";
 import {
-  VStack,
   Flex,
   Heading,
   useColorMode,
   IconButton,
-  Box,
   Spacer,
 } from "@chakra-ui/react";
 import {
@@ -25,25 +23,25 @@ const NavBar = () => {
       </Heading>
       <Spacer />
       <IconButton
-        aria-label="Search database"
+        aria-label="linkdin"
         isRound={true}
         icon={<FaLinkedinIn />}
         marginRight={4}
       />
       <IconButton
-        aria-label="Search database"
+        aria-label="github"
         isRound={true}
         icon={<FaGithub />}
         marginRight={4}
       />
       <IconButton
-        aria-label="Search database"
+        aria-label="twitter"
         isRound={true}
         icon={<FaTwitter />}
         marginRight={4}
       />
       <IconButton
-        aria-label="Search database"
+        aria-label="theme"
         isRound={true}
         onClick={toggleColorMode}
         marginRight={4}
