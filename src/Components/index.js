@@ -1,2 +1,3 @@
+export { NavBar } from "./NavBar";
 export { Profile } from "./Profile";
-export { Header } from "./Header";
+export { About } from "./About";

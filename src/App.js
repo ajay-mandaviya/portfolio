@@ -1,7 +1,12 @@
-import { Header, Profile } from "./Components";
-
+import { VStack } from "@chakra-ui/react";
+import { NavBar, Profile } from "./Components";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <VStack padding={5}>
+      <NavBar />
+      <Profile />
+    </VStack>
+  );
 }
 
 export default App;
