@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Icon, Text } from "@chakra-ui/react";
+import { Box, HStack, Icon, Text } from "@chakra-ui/react";
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaReact, FaJs, FaNpm } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
