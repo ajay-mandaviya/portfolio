@@ -1,13 +1,16 @@
-import { VStack } from "@chakra-ui/react";
-import { NavBar, Profile, Skill } from "./Components";
+import { VStack, Box } from "@chakra-ui/react";
+import { NavBar, Profile, Projects, Skill } from "./Components";
 
 function App() {
   return (
-    <VStack padding={8}>
-      <NavBar />
-      <Profile />
-      <Skill />
-    </VStack>
+    <Box maxWidth={"container.lg"} mx="auto">
+      <VStack padding={8}>
+        <NavBar />
+        <Profile />
+        <Skill />
+        <Projects />
+      </VStack>
+    </Box>
   );
 }
 
