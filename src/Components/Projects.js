@@ -7,6 +7,7 @@ import quickNote from "../assets/quick-note.png";
 import cl from "../assets/cl.png";
 const Projects = () => {
   const [smallScreen] = useMediaQuery("(min-width:600px)");
+  const [isLargerThan600] = useMediaQuery("(min-width: 600px)");
   const projects = [
     {
       id: 11,
@@ -70,11 +71,11 @@ const Projects = () => {
           return (
             <Box
               key={project.id}
-              width={"sm"}
               mx={"auto"}
               marginBottom="4"
               borderWidth="1px"
               borderRadius="lg"
+              flexBasis={isLargerThan600 ? "40%" : "100%"}
               overflow="hidden"
             >
               <Image
