@@ -1,5 +1,5 @@
 import { VStack, Box } from "@chakra-ui/react";
-import { NavBar, Profile, Projects, Skill } from "./Components";
+import { Blogs, NavBar, Profile, Projects, Skill } from "./Components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Profile />
         <Skill />
         <Projects />
+        <Blogs/>
       </VStack>
     </Box>
   );
