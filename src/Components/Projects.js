@@ -72,7 +72,7 @@ const Projects = () => {
             <Box
               key={project.id}
               mx={"auto"}
-              marginBottom="4"
+              marginBottom="8"
               borderWidth="1px"
               borderRadius="lg"
               flexBasis={isLargerThan600 ? "40%" : "100%"}
