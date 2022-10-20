@@ -40,13 +40,15 @@ export const Blogs = () => {
         {blogs.map((blog, index) => {
           return (
             <Box
+              data-aos="fade-right"
+              data-aos-duration="2000"
               mb={4}
               key={index}
               p={4}
               display="flex"
               flexDirection={isLargerThan600 ? "row" : "column"}
               mx={"auto"}
-              boxShadow="lg"
+              boxShadow="xl"
               alignItems={"center"}
               flexWrap={"wrap"}
             >

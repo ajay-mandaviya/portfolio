@@ -60,7 +60,6 @@ const Projects = () => {
       <Text textAlign={"center"} fontWeight="bold" m={4} fontSize="4xl">
         Recent Projects
       </Text>
-
       <Flex
         wrap={"wrap"}
         direction={smallScreen ? "row" : "column"}
@@ -70,6 +69,8 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <Box
+              data-aos="fade-up"
+              data-aos-duration="3000"
               key={project.id}
               mx={"auto"}
               marginBottom="8"
