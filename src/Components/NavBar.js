@@ -14,20 +14,18 @@ import {
   FaGithub,
   FaTwitter,
 } from "react-icons/fa";
+
 const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
-  // https://github.com/ajay-mandaviya
   return (
     <Flex width={"100%"} alignItems={"center"}>
       <Heading size={"md"} fontWeight={"semibold"} color="cyan.400">
         Ajay
       </Heading>
       <Spacer />
-      <Link
-        href="https://www.linkedin.com/in/ajay-mandaviya-222900191/"
-        isExternal
-      >
+
+      <Link href="https://www.linkedin.com/in/ajay-mandaviya/" isExternal>
         <IconButton
           aria-label="linkdin"
           isRound={true}

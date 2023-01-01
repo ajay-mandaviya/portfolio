@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <Text fontWeight={"semibold"} fontSize="md" textAlign={"center"}>
-      Copyright © {new Date().getFullYear().toString()} Ajay
+      Copyright © 2022 Ajay
     </Text>
   );
 };
